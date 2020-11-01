@@ -1,0 +1,24 @@
+{
+  "name": "zabaala/sample-service-layer-on-laravel-projects",
+  "description": "A sample project to explain how to implements a service layer in laravel projects.",
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "files": [
+      "app/Support/helpers.php"
+    ]
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "scripts": {
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.5"
+  }
+}
